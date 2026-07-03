@@ -12,3 +12,8 @@ body {
     border-radius: 8px;
 }
 a { color: #00d4ff; text-decoration: none; }
+/* Dark mode is default */
+body { background-color: #121212; color: white; }
+
+/* Light mode styles */
+body.light-mode { background-color: #f4f4f4; color: black; }
